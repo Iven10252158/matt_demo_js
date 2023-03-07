@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>影片上傳</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+      <label for="video-file">請選擇欲上傳的影片檔案：</label>
+      <input type="file" name="video-file" class="video-file" accept=".mp4, .avi, .mov">
+      <br />
+      <button type="button" class="upload-btn">upload/analysis</button>
+    </form>
+    <p class="message"></p>
+    <script type="module" src="./all.js"></script>
+</body>
+</html>
